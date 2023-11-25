@@ -14,7 +14,7 @@ public class WindowActivity {
 		driver.get("https://google.com");
 		driver.navigate().to("https://www.naukri.com");
 		driver.navigate().back();
-		driver.navigate().forward();
+		// driver.navigate().forward();
 
 
 	}
