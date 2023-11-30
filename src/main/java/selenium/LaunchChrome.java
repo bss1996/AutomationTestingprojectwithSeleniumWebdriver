@@ -22,7 +22,7 @@ public class LaunchChrome {
 		
 //		WebDriver driver1 = new ChromeDriver();
 		driver.get("https://www.crickbuzz.com");
-//		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
 //		System.out.println(driver.getCurrentUrl());
 //		driver.close();
 		
