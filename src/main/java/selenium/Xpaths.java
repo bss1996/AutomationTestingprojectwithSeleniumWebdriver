@@ -15,7 +15,7 @@ public class Xpaths {
 		driver.findElement(By.xpath("//div[@id='bluemenu']/child::ul[1]/child::li[5]/child::a[1]")).click();
 		Thread.sleep(2000L);
 		/// up to down side Relative Xpath
-		// driver.findElement(By.xpath("//div[@id='bodycontainer-innerpage']//div[@class='innerpage-bodycontainer-left']//table[1]//img[1]")).click();
+		driver.findElement(By.xpath("//div[@id='bodycontainer-innerpage']//div[@class='innerpage-bodycontainer-left']//table[1]//img[1]")).click();
 		
 		///Down to up side Relative Xpath
 		driver.findElement(By.xpath("//div[@id='header-container']/preceding-sibling::table[3]/preceding::img[5]")).click();
