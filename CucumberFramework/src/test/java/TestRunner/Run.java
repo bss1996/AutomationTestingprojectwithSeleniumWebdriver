@@ -11,7 +11,6 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun = true,
 		monochrome = true,
 		plugin = {"pretty"}
-		
 		)
 
 
